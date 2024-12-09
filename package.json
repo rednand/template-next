@@ -6,22 +6,33 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prepare": "husky install"
   },
   "dependencies": {
+    "next": "13.5.7",
+    "prettier": "3.4.2",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "13.5.7"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
     "autoprefixer": "^10",
+    "eslint": "8.48.0",
+    "eslint-config-next": "13.5.7",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.33.2",
+    "husky": "7",
+    "lint-staged": "12",
     "postcss": "^8",
     "tailwindcss": "^3",
-    "eslint": "^8",
-    "eslint-config-next": "13.5.7"
-  }
+    "typescript": "^5.4.0"
+  },
+  "main": "index.js",
+  "author": "Renan de Aguiar Modesto <renan.modesto@grupomultiplica.com.br>",
+  "license": "MIT"
 }
