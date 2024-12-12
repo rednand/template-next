@@ -1,5 +1,5 @@
 export const Main = () => (
   <main>
-    <h1>tttt</h1>
+    <h1>uuuuuu</h1>
   </main>
 )
