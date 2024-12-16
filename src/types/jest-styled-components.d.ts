@@ -10,7 +10,7 @@ declare global {
         | RegExp
         | object
         | Array<unknown>
-        | ((...args: any[]) => any)
+        | ((...args: unknown[]) => unknown) // Usando unknown ao invés de any
     }
 
     type Value = string | number | RegExp | AsymmetricMatcher | undefined
