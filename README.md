@@ -1,4 +1,4 @@
-Template criado com [Next.js](https://nextjs.org/) no curso React Avançado: Crie aplicações com NextJS, Strapi e mais.
+Template criado com [Next.js](https://nextjs.org/), TypeScript e Styled Component no curso React Avançado: Crie aplicações com NextJS, Strapi e mais.
 ________________
 
 ## Getting Started
