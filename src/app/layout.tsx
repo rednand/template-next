@@ -1,6 +1,7 @@
 import StyledComponentsRegistry from '@/lib/registry'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import { Provider } from './providers'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,7 +18,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+        <StyledComponentsRegistry>
+          <Provider>{children}</Provider>
+        </StyledComponentsRegistry>
       </body>
     </html>
   )

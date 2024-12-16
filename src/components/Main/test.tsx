@@ -7,9 +7,15 @@ describe('<Main />', () => {
     const { container } = render(<Main />)
 
     //busca o elemento
-    expect(screen.getByRole('heading', { name: /teste/i })).toBeInTheDocument()
+    expect(screen.getByRole('heading', { name: /Title/i })).toBeInTheDocument()
 
     //gerar snapshot
     expect(container.firstChild).toMatchSnapshot()
+  })
+
+  it('should render the colors correctly', () => {
+    const { container } = render(<Main />)
+
+    expect(container.firstChild).toHaveStyle({ 'background-color': '#06092b' })
   })
 })
