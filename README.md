@@ -1,4 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Template criado com [Next.js](https://nextjs.org/), TypeScript e Styled Component no curso React Avançado: Crie aplicações com NextJS, Strapi e mais.
+________________
 
 ## Getting Started
 
